@@ -2,6 +2,9 @@ class Employee:
     name="yash"
     age=19
     salary=50000
+    
+    def __init__(self, *args, **kwargs):
+        print(" i am creating an object")
     def getinfo(self):
         return(f"name {self.name} age {self.age} salary{self.salary}")
     @staticmethod
