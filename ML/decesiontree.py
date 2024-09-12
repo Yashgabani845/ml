@@ -35,4 +35,20 @@ import matplotlib.pyplot as plt
 
 plt.figure(figsize=(12,8))
 tree.plot_tree(clf, filled=True, feature_names=X.columns, class_names=['No', 'Yes'])
+
 plt.show()
+
+
+
+
+#theory:
+# decesion tree can solve both type of problems classification and regression
+# classification tree : in this it has logical ifs for any two or three types of value
+# important terms
+# 1. Entropy : is measure of reandomness or unpredicatability in dataset
+# 2. Information Gain : it is a measure of decrese in Entropy after a dataset split 
+# exa: lets say first entropy was e1 after split entropy become e2 then gain = e1-e2
+# 3.leaf node : it has classification of the decesion 
+# 4. root node : top most node 
+# formula of entropy : sum of all items(probability of that item come * log2(probability of that item come))
+# we will choose that condition which will give us highest gain on split 
