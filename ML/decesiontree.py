@@ -52,3 +52,10 @@ plt.show()
 # 4. root node : top most node 
 # formula of entropy : sum of all items(probability of that item come * log2(probability of that item come))
 # we will choose that condition which will give us highest gain on split 
+
+
+
+# Linear Regression: Use when you're predicting a continuous value (e.g., house prices, stock prices).
+# Logistic Regression: Use when you're classifying data into two categories (e.g., spam vs. non-spam, yes/no decisions).
+# K-Means Clustering: Use when you need to group data into clusters based on similarities, without predefined labels (e.g., customer segmentation).
+# Decision Trees: Use when you want a model that provides human-readable decision-making processes (e.g., loan approval, medical diagnosis).
